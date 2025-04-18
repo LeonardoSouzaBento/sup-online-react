@@ -17,9 +17,6 @@ const Img = styled.img`
 `;
 
 const P = styled.p`
-@media (max-width: 360px){
-    display: none;
-}
 @media (min-width: 320px) and (max-width: 520px){
     font-size: 0.75em;
     letter-spacing: 0.5px;

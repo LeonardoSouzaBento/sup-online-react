@@ -1,6 +1,18 @@
 import React from 'react';
 import ProductItem from './ProductItem';
 
+const DivStyled = styled.div`
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    box-sizing: border-box;
+`;
+
+
 function ProductList() {
   const products = [
     {
@@ -22,11 +34,11 @@ function ProductList() {
   ];
 
   return (
-    <div>
-      {products.map((product) => (
+    <DivStyled>
+       {products.map((product) => (
         <ProductItem key={product.id} product={product} />
       ))}
-    </div>
+    </DivStyled>
   );
 }
 

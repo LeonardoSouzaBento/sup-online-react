@@ -3,9 +3,7 @@ import styled from 'styled-components';
 
 const DivPai= styled.div`
     height: 100%;
-    min-width: 115px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 12px;
 `;
@@ -33,14 +31,6 @@ const Img0 = styled.img`
     background-color: #a93d40;
     box-shadow: 0px 0px 4px rgb(110, 18, 18);
 `;
-const Img1 = styled.img`
-    height: 31px;
-    padding: 11px;
-    object-fit: cover;
-    border-radius: 50%;
-    background-color: #a93d40;
-    box-shadow: 0px 0px 4px rgb(110, 18, 18);
-`;
 
 //estilos
 const iconStyle = {
@@ -61,7 +51,6 @@ const UserEnotif= () => {
             <p style={pstyle}>Mais opções</p>
         </Div>
         <Img0 src='src\assets\person.png'></Img0>
-        <Img1 src='src\assets\notifi.png'></Img1>
     </DivPai>
     )
 }

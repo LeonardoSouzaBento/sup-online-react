@@ -1,20 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Div = styled.div`
-  
-`;
-
-const Divf = styled.div`
+const PaiAllProductsStyled = styled.div`
   
 `;
 
 function PromoSection() {
   return (
-    <div id="for_promos">
-      <div id="promos">
-      </div>
-    </div>
+    <PaiAllProductsStyled>
+      
+    </PaiAllProductsStyled>
   );
 }
 
